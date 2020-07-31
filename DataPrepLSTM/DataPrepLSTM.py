@@ -84,22 +84,22 @@ class DataPrepLSTM:
     def returnVocab(self):
         return (self.final_words)
     
-#if __name__=="__main__":
-    #data = pd.read_csv('clean_text.csv')
-    #data = X_train#data['Text']
-   # obj = DataPrepLSTM(data)
-   # obj.fit()
-   # total_word = obj.wordCount()
-   # print("Total Words in the Data-Set:\t",total_word)
-   # print("**********************************************")
-   # uniquecount = obj.uniqueCounts()
-   # print("Total Number of Unique Words in the Data-Set:\t",uniquecount)
-   # print("**********************************************")
-   # wordcount = obj.wordCount()
-   # print("Total Number of Unique Words in the Data-Set:\t",wordcount)
-   # print("**********************************************")
-   # transformed_data = obj.transform(data,600)
-   # print("Dimensions of the transformed data:\t",transformed_data.shape)
-   # print("**********************************************")
-   # print("Transformed Data:\n")
-   # print(transformed_data.shape)
+"""if __name__=="__main__":
+    data = pd.read_csv('clean_text.csv')
+    data = data['Text']
+    obj = DataPrepLSTM(data)
+    obj.fit()
+    total_word = obj.wordCount()
+    print("Total Words in the Data-Set:\t",total_word)
+    print("**********************************************")
+    uniquecount = obj.uniqueCounts()
+    print("Total Number of Unique Words in the Data-Set:\t",uniquecount)
+    print("**********************************************")
+    wordcount = obj.wordCount()
+    print("Total Number of Unique Words in the Data-Set:\t",wordcount)
+    print("**********************************************")
+    transformed_data = obj.transform(data,600)
+    print("Dimensions of the transformed data:\t",transformed_data.shape)
+    print("**********************************************")
+    print("Transformed Data:\n")
+    print(transformed_data.shape)"""
