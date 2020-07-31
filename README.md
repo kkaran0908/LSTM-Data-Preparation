@@ -14,6 +14,10 @@ Any row of the dataset should not contain any numerical or NAN value. If it is t
 2. Write the code in the same repo which contain DataPrepLSTM
 3. I have provided the sample ipynb file and dataset, you can use that file to understand the working of the package.
 
+### Install the package in your system
+1. Go to the repository "LSTM Data Preparation" in your system, and use command "pip install ." to install the package for global use
+
+
 ### You can use below methods:
 
 To import the package,
