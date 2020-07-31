@@ -1,6 +1,8 @@
 ## LSTM Data Preparation:
 - DataPrepLSTM is a package, that will prepare the text dataset into the IMDB format. It is the format in which we have to feed the text data to an LSTM model. 
 
+![alt text](https://raw.githubusercontent.com/kkaran0908/LSTM-Data-Preparation/master/imdb.PNG)
+
 ### in what format we need to feed data to this package:
 - You have to convert entire text data into a single column, and this single column should be pandas core data frame, not a series data frame.
 Any row of the dataset should not contain any numerical or NAN value. If it is the case, first convert them into a string, or you may want to remove the nan.
